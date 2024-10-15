@@ -782,30 +782,127 @@ h3 .profession{
     } */
     .contact .contact-info-item{
         flex: 0 0 100%;
-        max-width: 100%
+        max-width: 100%;
     }
     .portfolio .portfolio-item{
         flex: 0 0 100%;
-        max-width: 100%
+        max-width: 100%;
+        /* margin-top: -20px ; */
+        /* margin-left: 10px; */
+    }
+    .portfolio .portfolio-item-inner .portfolio-img img{
+        width: 10px;
+        height: 40px;
     }
     .service .service-item{
         flex: 0 0 100%;
-        max-width: 100%
+        max-width: 100%;
+    }
+    .about .row .experience,.about .row .education{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
     .about .row .experience{
-        flex: 0 0 100%;
-        max-width: 100%
+        flex: 0 0 50%;
+        max-width: 100%;
     }
     .about .row .education{
-        flex: 0 0 100%;
+        flex: 0 0 50%;
         max-width: 100%
     }
     .about .row .skills{
         flex: 0 0 100%;
-        max-width: 100%
+        max-width: 100%;
+        margin-left: 25px;
     }
     .about .row .personal-info{
-        flex: 0 0 100%;
-        max-width: 100%
+        flex: 0 0 93%;
+        max-width: 100%;
+        margin-right: 0px;
     }
-}
+    .home .home-img{
+        flex: 0 0 10%;
+        max-width: 10%;
+        text-align: center;
+        position: relative;
+    }
+    .home-img::after{
+        content: '';
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        border-bottom: 10px solid var(--skin-color);
+        border-right: 10px solid var(--skin-color);
+        /* right: 20px; */
+        /* bottom: -40px; */
+        margin-left: -372px;
+        /* margin-top:1px ; */
+        bottom: -25px;
+    }
+    .home-img::before{
+        content: '';
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        border-top: 10px solid var(--skin-color);
+        border-left: 10px solid var(--skin-color);
+        /* left: -0px; */
+        /* top: -40px; */
+        margin-left: -295PX;
+        margin-top: 87PX;
+    }
+    .home .home-img img{
+        margin: auto;
+        border-radius: 5px;
+        height: 300px;
+        margin-left: -400PX;
+        margin-top: 80PX;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    .about{
+        background-color: var(--bg-black-50);
+        margin-bottom: 550px;
+        margin-left: 10px;
+    }
+    .service .container{
+        padding-bottom: 40px;
+        margin-top: 2100px;
+        margin-left: 10px;
+        margin-bottom: -100px;
+    }
+    .portfolio .container{
+        padding-bottom: 40px;
+        margin-left: 10px;
+        margin-top: -50px;
+        margin-bottom: -110px;
+    }
+    .portfolio .portfolio-heading{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .portfolio .portfolio-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact .contact-form{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 30px;
+    }
+    .contact .contact-form .btn{
+        height: 50px;
+        padding: 0 50px;
+        margin-left: 30px;
+    }
+    .about .row .personal-info .buttons .btn{
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+} 
