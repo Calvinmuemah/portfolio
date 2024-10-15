@@ -799,9 +799,9 @@ h3 .profession{
         max-width: 100%;
     }
     .about .row .experience,.about .row .education{
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 275px;
+        flex: 0 0 95%;
+        max-width: 95%;
+        margin-bottom: 300px;
     }
     .about .row .experience{
         flex: 0 0 50%;
