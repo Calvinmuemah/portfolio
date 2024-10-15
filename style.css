@@ -805,12 +805,12 @@ h3 .profession{
     .about .row .experience{
         flex: 0 0 50%;
         max-width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 575px;
     }
     .about .row .education{
         flex: 0 0 50%;
         max-width: 100%
-        margin-bottom: 75px;
+        margin-bottom: 575px;
     }
     .about .row .skills{
         flex: 0 0 100%;
