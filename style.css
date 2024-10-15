@@ -797,7 +797,7 @@ h3 .profession{
     .service .service-item{
         flex: 0 0 100%;
         max-width: 100%;
-         margin-top: 100px;
+        margin-top: 1000px;
     }
     .about .row .experience,.about .row .education{
         flex: 0 0 100%;
