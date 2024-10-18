@@ -795,6 +795,7 @@ h3 .profession{
         height: 40px;
     }
     .service .service-item{
+        max-top: -300%;
         flex: 0 0 100%;
         max-width: 100%;
     }
