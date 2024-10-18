@@ -795,7 +795,7 @@ h3 .profession{
         height: 40px;
     }
     .service .service-item{
-        margin-top: -3000px;
+        margin-top: 0px;
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -870,7 +870,7 @@ h3 .profession{
     }
     .about{
         background-color: var(--bg-black-50);
-        margin-bottom: 550px;
+        margin-bottom: 30px;
         margin-left: 10px;
     }
     .service .container{
