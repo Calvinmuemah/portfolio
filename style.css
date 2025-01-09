@@ -47,7 +47,7 @@ ul{
     opacity: 1;
 }
 .hidden{
-    display: none !important;
+/*     display: none !important; */
 }
 .main-content{
     padding-left: 273px;
